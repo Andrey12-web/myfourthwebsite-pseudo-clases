@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo clases</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:active</b><br>Elemento mientras se hace clic sobre él.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:active-view-transition</b><br>El elemento raíz mientras hay una transición de vista activa.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:active-view-transition-type()</b><br>Igual que la anterior, pero solo para un tipo de transición concreto.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:any-link</b><br>Cualquier enlace con href, visitado o no.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:autofill</b><br>Campo rellenado automáticamente por el navegador.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:blank</b><br>Campo de entrada vacío.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:buffering</b><br>Audio o video cargando datos para poder continuar.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:checked</b><br>Checkbox, radio u option que está marcado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:current</b><br>Elemento que se está mostrando ahora (ej. subtítulo activo).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:default</b><br>Elemento por defecto de un grupo (botón submit, opción preseleccionada).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:defined</b><br>Elemento que ya está definido (estándar o personalizado).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:dir()</b><br>Elementos según la dirección del texto (ltr o rtl).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:disabled</b><br>Elemento de formulario deshabilitado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:empty</b><br>Elemento sin hijos ni texto.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:enabled</b><br>Elemento de formulario habilitado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:first-child</b><br>Primer hijo de su padre.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:first-of-type</b><br>Primer hijo de su mismo tipo de etiqueta.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:focus</b><br>Elemento que tiene el foco.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:focus-visible</b><br>Elemento con foco cuando el navegador considera que debe mostrarse (teclado).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:focus-within</b><br>Elemento que contiene a otro con foco.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:fullscreen</b><br>Elemento que está en pantalla completa.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:future</b><br>Elemento que aparece después del :current (ej. subtítulos futuros).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:has()</b><br>Elemento que contiene a otros que cumplen un selector.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:has-slotted</b><br>Slot que tiene contenido asignado (Shadow DOM).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:host</b><br>Elemento anfitrión del Shadow DOM, visto desde dentro.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:host()</b><br>Anfitrión del Shadow DOM que cumple un selector.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:host-context()</b><br>Anfitrión que está dentro de un ancestro que cumple un selector.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:hover</b><br>Elemento con el cursor encima.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:in-range</b><br>Campo cuyo valor está dentro de min y max.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:indeterminate</b><br>Checkbox, radio o progress en estado indeterminado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:invalid</b><br>Campo cuyo valor no es válido.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:is()</b><br>Coincide con cualquiera de los selectores de la lista.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:lang()</b><br>Elementos según su idioma (ej. :lang(es)).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:last-child</b><br>Último hijo de su padre.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:last-of-type</b><br>Último hijo de su mismo tipo de etiqueta.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:link</b><br>Enlaces que aún no han sido visitados.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:local-link</b><br>Enlaces que apuntan a la misma URL del documento.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:modal</b><br>Elemento en estado modal (ej. dialog abierto con showModal).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:muted</b><br>Audio o video silenciado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:not()</b><br>Elementos que NO cumplen el selector indicado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:nth-child()</b><br>Hijo según una fórmula (2n, odd, even, 3...).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:nth-last-child()</b><br>Igual que nth-child pero contando desde el final.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:nth-last-of-type()</b><br>Igual que nth-of-type pero contando desde el final.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:nth-of-type()</b><br>Hijo según una fórmula, contando solo los de su mismo tipo.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:only-child</b><br>Elemento que es el único hijo de su padre.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:only-of-type</b><br>Elemento que es el único de su tipo dentro de su padre.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:open</b><br>Elemento en estado abierto (details, dialog, select).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:optional</b><br>Campo que no es obligatorio.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:out-of-range</b><br>Campo cuyo valor está fuera de min y max.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:past</b><br>Elemento que apareció antes del :current.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:paused</b><br>Audio o video en pausa.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:picture-in-picture</b><br>Elemento mostrado en modo imagen en imagen.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:placeholder-shown</b><br>Campo que está mostrando su placeholder.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:playing</b><br>Audio o video reproduciéndose.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:popover-open</b><br>Popover que está visible.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:read-only</b><br>Elemento que el usuario no puede editar.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:read-write</b><br>Elemento que el usuario sí puede editar.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:required</b><br>Campo obligatorio.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:root</b><br>Elemento raíz del documento (html).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:scope</b><br>Elemento de referencia del selector (querySelector, @scope).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:seeking</b><br>Audio o video buscando una nueva posición.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:stalled</b><br>Audio o video detenido por falta de datos.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:state()</b><br>Estado personalizado de un elemento personalizado.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:target</b><br>Elemento cuyo id coincide con el # de la URL.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:target-current</b><br>Marcador de scroll que está activo (experimental).
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:target-within</b><br>Elemento que contiene un elemento :target.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:user-invalid</b><br>Campo inválido, solo después de que el usuario interactuó.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:user-valid</b><br>Campo válido, solo después de que el usuario interactuó.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:valid</b><br>Campo cuyo valor es válido.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:visited</b><br>Enlaces que ya fueron visitados.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:volume-locked</b><br>Audio o video con el volumen bloqueado por el dispositivo.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:where()</b><br>Igual que :is() pero con especificidad cero.
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 altura">
+                <b>:xr-overlay</b><br>Elemento en una superposición de realidad virtual/aumentada.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
